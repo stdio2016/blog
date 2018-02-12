@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: mygood
 title: stdio2016 test
 ---
-stdio2016 test blog
+stdio2016 test blog index
 
 <span style='color:red'>red</span>
