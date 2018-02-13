@@ -11,6 +11,10 @@
 <hr>
 {{content }}
 <hr>
+<nav>
+  <a href='/'>回首頁</a>
+  {% if page.path != "index.md" %}<span  style='padding-left:30px;'></span><a href='/blog'>回部落格</a>{% endif %}
+</nav>
 <footer id=di>&copy; 2016~2018 stdio2016 版權ㄙㄨㄛˇ有
 {% if page.date != null %}<br>本頁面更新日期為 {{page.date| date: "%Y 年 %-m 月 %-d 日" }}{% endif %}</footer>
 </body>
