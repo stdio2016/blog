@@ -3,19 +3,23 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset='utf8'>
+  <link rel="stylesheet" href="/css/homepage.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <script src='/js/perlin.js'></script>
 </head>
-<link rel="stylesheet" href="/css/homepage.css">
-<script src='/js/perlin.js'></script>
 <body>
-<h1>{{page.title }}</h1>
+<header>
+  <h1 class='post-title'>{{page.title }}</h1>{% if page.date != null %}
+  <span>{{page.date | date: "%Y 年 %-m 月 %-d 日" }}</span>{% endif %}
+</header>
 <hr>
 {{content }}
 <hr>
 <nav>
   <a href='/'>回首頁</a>
-  {% if page.path != "index.md" %}<span  style='padding-left:30px;'></span><a href='/blog'>回部落格</a>{% endif %}
+  {% if page.path != "index.md" %}<span  style='padding-left:30px;'></span><a href='/blog'>尋找文章</a>{% endif %}
 </nav>
 <footer id=di>&copy; 2016~2018 stdio2016 版權ㄙㄨㄛˇ有
-{% if page.date != null %}<br>本頁面更新日期為 {{page.date| date: "%Y 年 %-m 月 %-d 日" }}{% endif %}</footer>
+</footer>
 </body>
 </html>
