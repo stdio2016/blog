@@ -6,7 +6,7 @@ title: stdio2016 的部落格
 
 其實是因為我還沒寫好文章，，哈哈哈！！！！！
 
-不過你可以按[這裡](2018/02/13)找找最新文章
+以下是我寫的文章：
 
 {% for post in site.posts %}
 - <span class="post-meta">{{ post.date | date: "%Y 年 %-m 月 %-d 日" }}</span>
