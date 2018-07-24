@@ -6,7 +6,15 @@
   margin: 0;
   margin-bottom: 0.5em;
 }
+.post-date {
+  font-size: 90%;
+}
 .blog-title {
   font-size: 1.5em;
 }
-@import "syntax-highlighting"
+@import "syntax-highlighting";
+
+// from bootstrap
+code, pre {
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}

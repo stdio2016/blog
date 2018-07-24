@@ -3,8 +3,10 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset='utf8'>
+  <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://stdio2016.github.io/image/background.png">
+  <meta property="og:image" content="{{ site.url }}/image/background.png">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <link rel="stylesheet" href="/css/homepage.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   <title>{{page.title }}</title>
@@ -13,7 +15,11 @@
 <body>
 <header>
   <h1 class='post-title'>{{page.title }}</h1>{% if page.date != null %}
-  <span>{{page.date | date: "%Y 年 %-m 月 %-d 日" }}</span>{% endif %}
+  <div class='post-date'>
+    <span>{{page.date | date: "%Y 年 %-m 月 %-d 日" }}</span>{% if page.modified != null %}
+    <br>
+    <span>最近修改：{{page.modified | date: "%Y 年 %-m 月 %-d 日" }}</span>{% endif %}
+  </div>{% endif %}
 </header>
 <hr>
 {{content }}
@@ -23,7 +29,7 @@
 <hr>
 <nav>
   <a href='/'>回首頁</a>
-  {% if page.path != "index.md" %}<span  style='padding-left:30px;'></span><a href='/blog'>尋找文章</a>{% endif %}
+  {% if page.path != "index.md" %}<span  style='padding-left:30px;'></span><a href='{{site.baseurl}}'>尋找文章</a>{% endif %}
 </nav>
 <footer id=di>&copy; 2016~2018 stdio2016 版權ㄙㄨㄛˇ有
 </footer>
