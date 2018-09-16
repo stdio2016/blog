@@ -29,6 +29,6 @@ issue: 3
 
 [當個創世神]: https://zh.wikipedia.org/wiki/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C
 [Mod]: https://minecraft-zh.gamepedia.com/Mods
-[可以讓 Java 編譯器當掉的方法]: http://onewebsql.com/blog/generics-crash
+[可以讓 Java 編譯器當掉的方法]: http://web.archive.org/web/20180128133633/http://onewebsql.com:80/blog/generics-crash
 [蔡淳仁]: https://www.cs.nctu.edu.tw/cswebsite/members/detail/cjtsai
 [陳穎平]: https://www.cs.nctu.edu.tw/cswebsite/members/detail/ypchen
