@@ -7,6 +7,9 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="{{ site.url }}/image/background.png">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
+{% if page.description != null %}
+  <meta property="og:description" content="{{ page.description }}">
+{% endif %}
   <link rel="stylesheet" href="/css/homepage.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   <title>{{page.title }}</title>

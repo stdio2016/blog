@@ -15,7 +15,8 @@ for (var i = 0; i < prefixes.length; i++) {
 }
 </script>
 
-*新功能！* 如果你有 GitHub 帳號，你還可以在我的文章的最後面留言喔
+壓縮字串！！
+金融科技&rArr;<span style="display:inline-block;transform:scalex(0.5);margin-left:-0.25em;margin-right:-0.25em;">金</span><span style="display:inline-block;transform:scalex(0.5);margin-left:-0.25em;margin-right:-0.25em;color:brown;">鬲</span><span style="display:inline-block;transform:scalex(0.5);margin-left:-0.25em;margin-right:-0.25em;color:brown;">虫</span><span style="display:inline-block;transform:scalex(0.5);margin-left:-0.25em;margin-right:-0.25em;">科</span>技&rArr;鎘蝌技
 
 以下是我寫的文章：
 
