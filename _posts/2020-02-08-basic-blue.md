@@ -21,5 +21,5 @@ description: 最近一個禮拜，我還是繼續把遊戲移植到 Godot 引擎
 來給大家看遊戲影片：
 
 <video controls style="width:100%; max-width:1024px;">
-<source src="https://www.stdio2016.com/~pi/20200205.mp4" type="video/mp4">
+<source src="https://www.stdio2016.com/~pi/video/20200205.mp4" type="video/mp4">
 </video>
