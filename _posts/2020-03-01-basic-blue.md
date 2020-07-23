@@ -18,14 +18,14 @@ description: 史上最漫長的寒假就要結束了，在這段期間，我把�
 
 3. 音樂
 
-    因為 Unity 版有音樂，所以我也在 Godot 加入音樂。
+    因為 Unity 版有音樂，所以我也在 Godot 版加入音樂。
 我選的音樂和 Unity 版一模一樣，都是古典音樂，來猜猜看是什麼，答對加分(誤)
 
 上次我忘記把遊戲放上網路了，現在我把試玩版放出來：
 <https://stdio2016.com/~pi/game/basicblueclear>。
 希望大家玩得愉快
 
-我在嘗試導出網頁版的時候，查網路發有人反映 iOS Safari 不能玩 Godot 製作的遊戲。
+我在嘗試導出網頁版的時候，查網路發現有人反映 iOS Safari 不能玩 Godot 製作的遊戲。
 我擔心我的遊戲無法在蘋果裝置上玩，然而我沒有蘋果裝置，無法測試，希望有 iPhone 的人可以試玩看看
 
 <video controls style="width:100%; max-width:1024px;">
