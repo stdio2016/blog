@@ -53,4 +53,4 @@ Praat 還使用 [維特比演算法] 來取得最有可能的音高序列。
 [Praat]: https://zh.wikipedia.org/wiki/Praat%E8%AF%AD%E9%9F%B3%E5%AD%A6%E8%BD%AF%E4%BB%B6
 [Scientific pitch notation]: https://en.wikipedia.org/wiki/Scientific_pitch_notation
 [Accurate short-term analysis of the fundamental frequency...]: http://www.fon.hum.uva.nl/paul/papers/Proceedings_1993.pdf
-[維特比演算法]: http://www.csie.ntnu.edu.tw/~u91029/HiddenMarkovModel.html
+[維特比演算法]: http://web.ntnu.edu.tw/~algo/HiddenMarkovModel.html
